@@ -1,0 +1,6 @@
+---
+# Backend handlers
+- name: Restart httpd
+  service:
+    name: httpd
+    state: restarted

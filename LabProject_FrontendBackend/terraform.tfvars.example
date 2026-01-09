@@ -1,0 +1,21 @@
+# Sample Terraform Variables
+# Copy this file and customize as needed
+
+# AWS Configuration
+aws_region        = "us-east-1"
+availability_zone = "us-east-1a"
+
+# Network Configuration
+vpc_cidr_block    = "10.0.0.0/16"
+subnet_cidr_block = "10.0.1.0/24"
+
+# Environment and Instance Configuration
+env_prefix    = "lab"
+instance_type = "t2.micro"
+
+# SSH Key Paths (update these to match your key locations)
+public_key  = "~/.ssh/id_rsa.pub"
+private_key = "~/.ssh/id_rsa"
+
+# Ansible Configuration
+ansible_user = "ec2-user"
